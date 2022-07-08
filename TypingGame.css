@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  font-family: sans-serif;
+}
+span {
+  color: rgb(19, 133, 226);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  background-color: rgb(19, 133, 226);
+  height: 80px;
+  width: 100%;
+  color: white;
+}
+.head p {
+  font-size: 50px;
+  margin: 0 0 0 36%;
+}
+#mina {
+  display: none;
+}
+.head label {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  width: 50px;
+  height: 22px;
+  background-color: white;
+  border: 1px solid rgb(6, 93, 163);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.head span {
+  position: relative;
+  color: white;
+  top: 41px;
+  left: 47px;
+}
+#mina:checked + label {
+  background-color: black;
+  border: 1px solid #0488c5;
+}
+.checker {
+  position: absolute;
+  top: 42px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.para {
+  padding: 10px;
+  background-color: white;
+  width: 600px;
+  margin-top: 20px;
+}
+p span select {
+  width: 70px;
+  height: 23px;
+  border: none;
+  color: #1385e2;
+  font-size: large;
+  outline: none;
+}
+.btn {
+  margin: 20px 0;
+  width: 600px;
+  color: rgb(19, 133, 226);
+  font-size: 60px;
+  background-color: white;
+}
+.btn div {
+  color: white;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(28, 218, 243);
+  font-size: 32px;
+  cursor: pointer;
+}
+.input {
+  width: 600px;
+  height: 52px;
+  text-indent: 10px;
+  outline: none;
+  border: 1px solid #1cdaf3;
+  caret-color: #1cdaf3;
+  font-size: 30px;
+  text-align: center;
+}
+.words {
+  padding: 26px;
+  margin-top: 20px;
+  background-color: white;
+  width: 600px;
+  font-size: 22px;
+  flex-wrap: wrap;
+}
+.words div {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: rgb(19, 133, 226);
+  color: white;
+  padding: 4px;
+  margin: 3px;
+}
+p {
+  font-size: 20px;
+}
+.result1 {
+  width: 600px;
+  background-color: white;
+  margin-top: 20px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+.result2 {
+  padding: 20px;
+  font-size: 44px;
+  color: red;
+}

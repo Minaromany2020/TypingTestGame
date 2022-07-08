@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TypingGame.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <span>Night Mood</span>
+        <input type="checkbox"  id="mina">
+        <label for="mina" onclick="mina()"></label>
+        <div class="checker"></div>
+        <p>Fast Word Game</p>
+    </div>
+    <div class="flex para">
+        <p>
+            You Are In 
+            <span class="spanlevel" onchange="start()"><select>
+                <option>Esey</option>
+                <option>Hard</option>
+            </select></span>
+            Level you have
+            <span class="spantime1">[5]</span>
+            seconds
+        </p>
+    </div>
+    <div class="flex btn"><div class="flex start" onclick="start()">start palying</div></div>
+    <input type="text" class="input">
+    <div class="flex words">
+        there is not have a words
+    </div>
+    <div class="result1">
+        <p>
+            time left
+            <span class="spantime">5</span>
+            seconds
+        </p>
+        <p>
+            <span class="span1">0</span>
+            from
+            <span class="span2">[30]</span>
+        </p>
+    </div>
+    <div class="flex result2"></div>
+    <script src="TypingGame.js"></script>
+</body>
+</html>
